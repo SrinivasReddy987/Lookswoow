@@ -1,0 +1,91 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+"#mainView": {
+	backgroundColor:'white',
+	top : 0,
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "80",
+}
+
+".textFiledProperty":{
+	height : 35,
+	borderColor : "#5F93A9",
+	top :5,
+}
+
+".textFiledProperty":{
+	backgroundColor:'transparent',
+	top : 5,
+	width : "90%",
+	height: 40,
+	borderColor : "#5F93A9",
+	borderRadius : "5",
+	color : "black",
+	paddingLeft :5,
+	paddingRight :5,
+	tintColor : "gray",	
+}
+
+".labelProperty":{
+	height : 40,
+	top :5,
+	width : "90%",
+	color : "black",
+}
+
+
+"#submitButton":{
+	height :"40",
+	backgroundColor : "#DA308A",
+	borderRadius : 5,
+	color : "white",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+	width : "90%",
+	title : "Submit",
+	top : 20	
+}
+
+"#payOnline":{
+	height :"40",
+	backgroundColor : "#DA308A",
+	borderRadius : 5,
+	color : "white",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+	width : "90%",
+	title : "Pay Online",
+	top : 10	
+}
+
+"#textArea":{
+	height :"150",
+	color : "#DA308A",
+	width : "90%",
+	top : 10,
+	value : "Reduce treatment time by up to 6 months. They are almost invisible and much less noticeable than classic metal braces. They cause less problems with staining and mouth sores.",  	
+}
+
+"#titleLable":{
+	color : "#DA308A",
+	font: { fontSize: '18', fontWeight: 'bold'},
+}
+
+"#backLabel":{
+	color : "#DA308A",
+	font: { fontSize: '16', fontWeight: 'bold'},
+}
+
+
+
+
+
+
+
+

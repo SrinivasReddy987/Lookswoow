@@ -1,0 +1,68 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "80",
+}
+
+"#mainView": {
+	backgroundColor:'white',
+	height : "100%",
+	width : "100%"
+}
+
+"#Submit": {
+	top:'30',
+	height : "40",
+	width : "150",
+	left : "5%",
+	backgroundColor : "#5F93A9",
+	color : "white",
+	title : "Submit",
+	borderRadius :"5"
+}
+
+"#userName": {
+	backgroundColor:'white',
+	top : 20,
+	left : "5%",
+	color : "black"
+}
+
+"#email": {
+	backgroundColor:'white',
+	top : 15,
+	left : "5%",
+	color : "black",
+}
+
+"#password": {
+	backgroundColor:'white',
+	top : 15,
+	left : "5%",
+	color : "black",
+}
+
+"#confirmPassword": {
+	backgroundColor:'white',
+	top : 15,
+	left : "5%",
+	color : "black"
+}
+
+".textFiledProperty": {
+	backgroundColor:'white',
+	top : 5,
+	width : "90%",
+	height: 40,
+	borderColor : "#5F93A9",
+	borderRadius : "5",
+	color : "black",
+	paddingLeft :5,
+	paddingRight :5
+}

@@ -1,0 +1,67 @@
+<Alloy>
+	<Window title="Feedback" id="feedback">
+		<View layout="vertical" top="0">
+			<View id = "topView" backgroundColor="white" top ="0" height ="50" width ="100%">
+				<Label id = "titleLable" bottom = "0" height="50"  color="black">Feedback</Label>
+				<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+			</View>
+			<View id = "lineView" backgroundColor="#5F93A9" height="1" width="100%" top="0"></View>
+			<ScrollView id="scrollView" layout="vertical" top="0" height="80%" scrollType="verical" >
+				<View class = "viewProperty" id="nameView">
+					<ImageView class="imageProperty"></ImageView>
+					<Label class="labelProperty">Name</Label>
+					<TextField class="textFieldProperty" id="nameTxt" onClick="clickevent"></TextField>
+					<View class="lineViewproperty"></View>
+				</View>
+				<View class = "viewProperty" id="emailView">
+					<ImageView class="imageProperty"></ImageView>
+					<Label class="labelProperty">E-mail</Label>
+					<TextField class="textFieldProperty" id = "emailtxt"></TextField>
+					<View class="lineViewproperty"></View>
+				</View>
+				<View class = "viewProperty" id="urlView">
+					<ImageView class="imageProperty"></ImageView>
+					<Label class="labelProperty">URL</Label>
+					<TextField class="textFieldProperty" id="urlTxt"></TextField>
+					<View class="lineViewproperty"></View>
+				</View>
+				<View class = "viewProperty" id="passwordView">
+					<ImageView class="imageProperty"></ImageView>
+					<Label class="labelProperty">Password</Label>
+					<TextField class="textFieldProperty" id="passwordTxt"></TextField>
+					<View class="lineViewproperty"></View>
+				</View>
+				<View class = "viewProperty" id="phoneView">
+					<ImageView class="imageProperty"></ImageView>
+					<Label class="labelProperty">Phone</Label>
+					<TextField class="textFieldProperty" id = "phoneTxt"></TextField>
+					<View class="lineViewproperty"></View>
+				</View>
+				<View class = "viewProperty" id="genderView">
+					<ImageView class="imageProperty"></ImageView>
+					<Label class="labelProperty">Gender</Label>
+					<TextField class="textFieldProperty" id="genderTxt"></TextField>
+					<View class="lineViewproperty"></View>
+				</View>
+				<View class = "viewProperty" id="birthdayView">
+					<ImageView class="imageProperty"></ImageView>
+					<Label class="labelProperty">Birth date</Label>
+					<TextField class="textFieldProperty" id="birthdayTxt"></TextField>
+					<View class="lineViewproperty"></View>
+				</View>
+				<View class = "viewProperty" id="satisfyView">
+					<ImageView class="imageProperty"></ImageView>
+					<Label class="labelProperty">Satisfy</Label>
+					<TextField class="textFieldProperty" id="satisfyTxt"></TextField>
+					<View class="lineViewproperty"></View>
+				</View>
+				<Button id = "submitButton" onClick="submitButtonClicked"></Button>
+				<View id = "emtyView" height ="40"></View>
+			</ScrollView>
+			<View id = "bottomView" bottom= "0">
+				<Require id="tabView" src="tabView" />
+			</View>
+		</View>
+	</Window>
+</Alloy>
+

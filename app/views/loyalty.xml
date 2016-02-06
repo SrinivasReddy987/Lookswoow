@@ -1,0 +1,63 @@
+<Alloy>
+	<Window id="loyalty" layout="vertical">
+		<View id = "topView" backgroundColor="#FAEAF5" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%">Loyalty Program</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+			<Label id = "backLabel"  text="< Back" onClick="goBack" left = "3" top = "45%"></Label>
+			<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+		</View>
+		<View id = "starView"  top = "10" height = "60" layout="horizontal" width = "Titanium.UI.SIZE">
+			<ImageView id="star1" class="imageProperty"></ImageView>
+			<ImageView id="star2" class="imageProperty"></ImageView>
+			<ImageView id="star3" class="imageProperty"></ImageView>
+			<ImageView id="star4" class="imageProperty"></ImageView>
+			<ImageView id="star5" class="imageProperty"></ImageView>
+		</View>
+		
+		<Label id = "appoinmentNum"></Label>
+			
+		<View id = "lableView" top="10" layout = "vertical" height="Titanium.UI.SIZE" width="100%" width = "Titanium.UI.SIZE">
+			<View id ="labelView1" top="5" onClick="view1click" layout="horizontal" height = "Titanium.UI.SIZE" width = "Titanium.UI.SIZE">
+			<Label  text="Book your" class="labelProperty"></Label>
+			<Label   text="1st" class="labelProperty" color="#DA308A"></Label>
+			<Label  text="Appointment" class="labelProperty"></Label>
+			</View>
+			
+			<View id ="labelView2" top="5" onClick="view2click" layout="horizontal" height = "Titanium.UI.SIZE" width = "Titanium.UI.SIZE">
+			<Label   text="Book your" class="labelProperty"></Label>
+			<Label   text="2nd" class="labelProperty" color="#DA308A"></Label>
+			<Label   text="Appointment" class="labelProperty"></Label>
+			</View>
+			
+			<View id ="labelView3" top="5" onClick="view3click" layout="horizontal" height = "Titanium.UI.SIZE" width = "Titanium.UI.SIZE">
+			<Label   text="Book your" class="labelProperty"></Label>
+			<Label   text="3rd" class="labelProperty" color="#DA308A"></Label>
+			<Label   text="Appointment" class="labelProperty"></Label>
+			</View>
+			
+			<View id ="labelView4" top="5" onClick="view4click" layout="horizontal" height = "Titanium.UI.SIZE" width = "Titanium.UI.SIZE">
+			<Label   text="Book your" class="labelProperty"></Label>
+			<Label  text="4th" class="labelProperty" color="#DA308A"></Label>
+			<Label  text="Appointment" class="labelProperty"></Label>
+			</View>
+			
+			<View id ="labelView5" top="5" onClick="view5click" layout="horizontal" height = "Titanium.UI.SIZE" width = "Titanium.UI.SIZE">
+			<Label   text="Book your" class="labelProperty"></Label>
+			<Label   text="5th" class="labelProperty" color="#DA308A"></Label>
+			<Label  text="Appointment" class="labelProperty"></Label>
+			</View>
+			
+			<View id ="labelView6" top="5" onClick="view6click" layout="horizontal" height = "Titanium.UI.SIZE" width = "Titanium.UI.SIZE">
+			<Label id = "label1"  text="Get a" class="labelProperty"></Label>
+			<Label id = "label1"  text="FREE" class="labelProperty" color="#DA308A"></Label>
+			<Label id = "label1"  text="Appointment" class="labelProperty"></Label>
+			</View>
+	   </View>
+	   
+	   <ImageView id = "appointmentImage" onClick="bookAppointment"></ImageView>
+	   
+		<View id = "bottomView" bottom= "0">
+			<Require id="tabView" src="tabView" />
+		</View>  
+    </Window>
+</Alloy>

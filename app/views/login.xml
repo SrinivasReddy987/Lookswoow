@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="login">
+		<View id = "mainView" backgroundColor="white"  layout="vertical">
+			<View id = "topView" backgroundColor="white" top ="0" height ="50" width ="100%">
+				<Label id = "titleLable" bottom = "0" height="50"  color="black">Login</Label>
+			</View>
+			<View id = "lineView" backgroundColor="#5F93A9" height="1" width="100%" top="0"></View>
+				<Label id = "userName" class="labelProperty" text="User Name"></Label>
+				<TextField id = "userNameField" class="textFiledProperty" value="dharma@gmail.com"></TextField>
+				<Label id = "password" class="labelProperty" text="Password"></Label>
+				<TextField id = "passwordField" class="textFiledProperty" value="dharma" passwordMask=true></TextField>
+				<Button id = "submit" onClick="loginButtonClicked"></Button>
+				<Button id = "register" onClick="registerButtonClicked"></Button>
+		</View>
+	</Window>
+</Alloy>

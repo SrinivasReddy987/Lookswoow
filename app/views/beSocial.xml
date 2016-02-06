@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="beSocial" height="100%">
+		<View id = "topView" backgroundColor="white" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%" color="black">Share</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+			<Label id = "backLabel"  text="< Back" onClick="goBack" left = "3" top = "45%"></Label>
+			<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+		</View>
+		<View id="mainView" top = "60" width = "100%" bottom = "60">
+		<ImageView id = "googlePlus"  class="imageProperty" image = "/share/google-icon.png" top = "20%" left="15%" onClick="openGooglePlus"></ImageView>
+		<ImageView id = "facebook" class="imageProperty" image = "/share/facebook-icon.png" top = "20%" left = "40%" onClick="openFacebook"></ImageView>
+		<ImageView id = "twitter"  class="imageProperty" image = "/share/twitter-icon.png" top = "20%" right = "15%" onClick="openTwitter"></ImageView>
+		<ImageView id = "instagram"  class="imageProperty" image = "/share/instagram-icon.png" top = "40%" left = "27%" onClick="openInstagram"></ImageView>
+		<ImageView id = "pinterest"  class="imageProperty" image = "/share/pinterest-icon.png" top = "40%" right = "27%" onClick="openPinterest"></ImageView>
+		</View>
+			<Require id="tabView" src="tabView" />
+    </Window>
+</Alloy>

@@ -1,0 +1,46 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "70",
+}
+
+"#logoImage" : {
+	image : "/logo/lookswoow.png",
+	top : "2%",
+	//left : "10%",
+	//right : "10%",
+	height : "12%"
+}
+
+"#bannerImage" : {
+	image : "/logo/banner.png",
+	left : "5%",
+	right : "5%",
+	//height : "30%",
+	//width : Ti.Platform.displayCaps.platformWidth,
+	top : "3%",
+}
+
+"#dental" : {
+	backgroundColor : "#5F93A9",
+	top : "4%"
+}
+
+".btnproperty" : {
+	top : "2%",
+	left : "5%",
+	right : "5%",
+	height : "8%",
+	backgroundColor : "#DA308A",
+	borderRadius : 5,
+	color : "white",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+}
+
+

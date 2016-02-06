@@ -1,0 +1,21 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "70",
+}
+
+"#titleLable":{
+	color : "#DA308A",
+	font: { fontSize: '18', fontWeight: 'bold'},
+}
+
+"#backLabel":{
+	color : "#5F93A9",
+	font: { fontSize: '16', fontWeight: 'bold'},
+}

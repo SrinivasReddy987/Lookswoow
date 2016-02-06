@@ -1,0 +1,47 @@
+"#tabView" : {
+	height : "60",
+	bottom : 0,
+}
+
+"#homeTab" : {
+	backgroundColor : "#5F93A9",
+	left  : "0%",
+	height : "100%",
+	width : "20%"
+}
+
+"#searchTab" : {
+	backgroundColor : "#5F93A9",
+	left  : "20%",
+	height : "100%",
+	width : "20%"
+}
+
+"#promotionTab" : {
+	backgroundColor : "#5F93A9",
+	left  : "40%",
+	height : "100%",
+	width : "20%"
+}
+
+"#feedbackTab" : {
+	backgroundColor : "#5F93A9",
+	right  : "20%",
+	height : "100%",
+	width : "20%"
+}
+
+"#servicesTab" : {
+	backgroundColor : "#5F93A9",
+	right  : "0%",
+	height : "100%",
+	width : "20%"
+}
+
+".imageProperty" : {
+	width : "60",
+	height :"60"
+}
+
+
+

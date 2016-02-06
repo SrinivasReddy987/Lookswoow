@@ -1,0 +1,19 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+".imageProperty" :{
+	height : "50",
+	width : "50",
+}
+
+
+"#titleLable":{
+	color : "#DA308A",
+	font: { fontSize: '18', fontWeight: 'bold'},
+}
+
+"#backLabel":{
+	color : "#DA308A",
+	font: { fontSize: '16', fontWeight: 'bold'},
+}

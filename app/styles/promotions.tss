@@ -1,0 +1,25 @@
+"Window": {
+	//backgroundImage:"tabicons/bg.png"
+	backgroundColor:'white',
+}
+
+"#titleLable":{
+	color : "#DA308A",
+	font: { fontSize: '18', fontWeight: 'bold'},
+}
+
+"#backLabel":{
+	color : "#DA308A",
+	font: { fontSize: '16', fontWeight: 'bold'},
+}
+
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "80",
+}
+
+

@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="share">
+		<View id = "topView" backgroundColor="white" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%" color="black" >Share</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+			<Label id = "backLabel"  text="< Back" onClick="goBack" left = "3" top = "45%"></Label>>
+		</View>
+		<ImageView id = "googlePlus"  class="imageProperty" image = "/share/google-icon.png" top = "100" left="100"></ImageView>
+		<ImageView id = "facebook" class="imageProperty" image = "/share/facebook-icon.png" top = "100" left = "150"></ImageView>
+		<ImageView id = "twitter"  class="imageProperty" image = "/share/twitter-icon.png" top = "100" right = "100"></ImageView>
+		<ImageView id = "instagram"  class="imageProperty" image = "/share/instagram-icon.png" top = "160" left = "120"></ImageView>
+		<ImageView id = "pinterest"  class="imageProperty" image = "/share/pinterest-icon.png" top = "160" right = "120"></ImageView>
+		<View id = "bottomView" bottom= "0">
+			<Require id="tabView" src="tabView" />
+		</View> 
+    </Window>
+</Alloy>ss

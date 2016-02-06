@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="aboutUs" layout="vertical">
+		<View id = "topView" backgroundColor="white" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%" >About Us</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+			<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+			<Label id = "backLabel"  text="< Back" onClick="goBack" left = "3" top = "45%"></Label>
+		</View>
+		<TextArea id = "textArea" color="black"></TextArea>
+				<View id = "bottomView" bottom = "0">
+			<Require id="tabView" src="tabView" />
+		</View> 
+    </Window>
+</Alloy>

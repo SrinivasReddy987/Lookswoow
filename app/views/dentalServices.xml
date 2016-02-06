@@ -1,0 +1,51 @@
+
+<Alloy>
+	<Window title="Detal Services" barColor= 'white' id="dentalServices">
+		<View id = "topView" backgroundColor="white" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%" color="black">Dental Services</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+			<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+		</View>
+	<ScrollView id = "scrollview" top ="60" bottom = "60" layout="vertical">
+		<View id="view1" class="viewProperty">
+			<ImageView id="findUsImage" class="imageProperty1" image = "/homeIcons/find_us.png" onClick="openFindUs"></ImageView>
+			<ImageView id="dealImage" class="imageProperty2" image = "/homeIcons/deals.png" onClick="openDeal"></ImageView>
+			<ImageView id="testimonialsImage" class="imageProperty3" image = "/homeIcons/testimonials.png" onClick="openTestimonial"></ImageView>
+		</View>
+		
+		<View id="view2" class="viewProperty">
+			<ImageView id="loyaltyImage" class="imageProperty1" image = "/homeIcons/loyalty.png" onClick="openLoyalty"></ImageView>
+			<ImageView id="serviceImage" class="imageProperty2" image = "/homeIcons/services.png" onClick="openServices"></ImageView>
+			<ImageView id="besocialImage" class="imageProperty3" image = "/homeIcons/be_social.png" onClick="openSocial"></ImageView>
+		</View>
+		
+		<View id="view3" class="viewProperty">
+			<ImageView id="notificationImage" class="imageProperty1" image = "/homeIcons/before-after.png" onClick="openBeforeAfter"></ImageView>
+			<ImageView id="payonlineImage" class="imageProperty2" image = "/homeIcons/share.png" onClick="openShare"></ImageView>
+			<ImageView id="aboutusImage" class="imageProperty3" image = "/homeIcons/about_us.png" onClick="openAboutUs"></ImageView>
+		</View>
+		
+		<View id="view4">
+			<ImageView id="callImage" onClick="makeCall"></ImageView>
+			<ImageView id="helpImage" onClick="liveChat"></ImageView>
+		</View>
+		
+		<ImageView id="appointmentImage" onClick="bookAppoinment"></ImageView>
+		<View id = "emptyView" height="40" backgroundColor="white"></View>
+		</ScrollView>
+			<Require id="tabView" src="tabView" />
+	<!-- </Window> -->
+	
+	<View id="shareView" backgroundColor="transparent" height ="100%" width="100%" top ="0">
+		<View id="emailView" backgroundColor="white" height="230" width = "250" opacity = 1 layout="vertical" borderRadius = 5 borderColor  = 'red'>
+		<Button id="close" top = "10" height = "20" width = "20" backgroundImage="/homeIcons/close-icon.png" right = "10" onClick="closeWin"></Button>
+		<Label id = "titleLabel" top = "10" width = "80%" opacity = "1">Share with Friends</Label>
+	     <TextField id = "emailField" top = "30" opacity = "1" color="black" height="38" width = "80%" borderColor="#5F93A9" borderRadius="5"></TextField>
+	     <Button id = "sendButton" onClick="sendButtonClicked" top = "20" width="80%" height="40" title="Send" opacity = "1" backgroundColor="#5F93A9" color="white"></Button>
+		</View>
+	</View>
+	</Window>
+	
+</Alloy>
+
+

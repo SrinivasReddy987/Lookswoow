@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="search">
+		<View id = "topView" backgroundColor="white" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%">Search</Label>
+			<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+		</View>
+		<Require id="tabView" src="tabView"/>
+    </Window>
+</Alloy>

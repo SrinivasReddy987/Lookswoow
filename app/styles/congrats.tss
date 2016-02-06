@@ -1,0 +1,28 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "80",
+}
+
+"#titleLable":{
+	color : "#DA308A",
+	font: { fontSize: '18', fontWeight: 'bold'},
+}
+
+"#backLabel":{
+	color : "#DA308A",
+	font: { fontSize: '16', fontWeight: 'bold'},
+}
+
+"#appointmentListImage":{
+	image : "/tabicons/viewappointments.png",
+	top : "20",
+	width :"100",
+	height : "100",
+}

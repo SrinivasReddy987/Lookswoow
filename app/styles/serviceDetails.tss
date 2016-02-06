@@ -1,0 +1,27 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+"#headerLabel": {
+	top : 15,
+	color : "#DA308A",
+	width : "90%",
+}
+
+"#textArea": {
+	top :15,
+	width : "90%",
+	height : "70%",
+	editable : false,
+	color  : "black",
+	backgroundColor : "white",
+	font: { fontSize: '13'},
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "80",
+}

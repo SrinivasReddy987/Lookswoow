@@ -1,0 +1,31 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+"#textArea" :{
+	value : "LooksWoow is a state-of-the-art dental clinic located in the heart of Dubai on the Ground Floor of the iconic “Dubai Mall” .It’s designed with modern interiors and equipped with advanced dental equipment to deliver exceptional dental services to achieve everlasting smiles.\n\n\n Apart from offering a full range of dental services in Dubai, Lookswoow specializes in cosmetic dentistry ranging from our revolutionary 3D Teeth Whitening system to complete smile makeovers to make you look like Hollywood Stars. Rest assured that we use the best materials and quality is always guaranteed.\n\n\n The clinic is home to highly-professional, licensed and well trained dentists who will give the focused attention you deserve and the best advice on dental treatment options that best suit you. Dentists, staff and laboratory technicians all work to fulfill and achieve one goal: improve your oral well-being.",
+    top :10,
+    height : "78%",
+    width : "90%",
+    editable:false,
+    font: { fontSize: '15'},
+}
+
+"#titleLable":{
+	color : "#DA308A",
+	font: { fontSize: '18', fontWeight: 'bold'},
+}
+
+"#backLabel":{
+	color : "#5F93A9",
+	font: { fontSize: '16', fontWeight: 'bold'},
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "70",
+}
+

@@ -1,0 +1,63 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+".viewProperty":{
+	height : "60",
+	width : "100%",
+    top:1
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "80",
+}
+
+".imageProperty":{
+	height : "0",
+	width : "0",
+    //left : 10,
+    image : "homeIcons/testimonials.png"
+}
+
+".labelProperty":{
+	height : "50",
+	width : "80",
+    left : 10,
+    textAlign : "left",
+    color : "#DA308A",
+}
+
+".textFieldProperty":{
+	height : 38,
+	right :10,
+    left : 100,
+    backgroundColor : "white",
+    borderColor : "#5F93A9",
+    borderRadius : 5,
+    borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+    hintText : "Please Enter",
+    color :"black"
+}
+
+".lineViewproperty":{
+	height : "0",
+	width : "100%",
+    backgroundColor : "#5F93A9",
+    bottom : "0"
+}
+
+"#submitButton":{
+	height :"40",
+	backgroundColor : "#DA308A",
+	borderRadius : 5,
+	color : "white",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '15', fontWeight: 'bold'},
+	width : "60%",
+	title : "Submit",
+	top : 25	
+}
+

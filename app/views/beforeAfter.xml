@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="beforeAfter" layout="vertical">
+		<View id = "topView" backgroundColor="white" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%" color="black">Before After</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+			<Label id = "backLabel"  text="< Back" onClick="goBack" left = "3" top = "45%"></Label>
+			<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+		</View>
+		<ImageView id = "teethImage1" class="imageProperty" image = "/teethImage/teeth1.png"></ImageView>
+		<ImageView id = "teethImage2"  class="imageProperty" image = "/teethImage/teeth2.png"></ImageView>
+		<View id = "bottomView" bottom= "0">
+			<Require id="tabView" src="tabView" />
+		</View> 
+    </Window>
+</Alloy>

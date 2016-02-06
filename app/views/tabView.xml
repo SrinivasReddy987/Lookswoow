@@ -1,0 +1,20 @@
+<Alloy>
+	<View id = "tabView">
+		<View id = "homeTab" onClick="openHome">
+			<ImageView id = "homeImage" class="imageProperty" image="/tabicons/home_tab.png"></ImageView>
+		</View>
+		<View id = "searchTab" onClick="openSearch">
+			<ImageView id = "searchImage" class="imageProperty" image="/tabicons/search_tab.png"></ImageView>
+		</View>
+		<View id = "promotionTab" onClick="openPromotion">
+			<ImageView id = "promotionImage" class="imageProperty" image="/tabicons/promotion_tab.png"></ImageView>
+		</View>
+		<View id = "feedbackTab" onClick="openFeedback">
+			<ImageView id = "feedbackImage" class="imageProperty" image="/tabicons/feedback_tab.png"></ImageView>
+		</View>
+		<View id = "servicesTab" onClick="openServices">
+			<ImageView id = "servicesImage" class="imageProperty" image="/tabicons/services_tab.png"></ImageView>
+		</View>
+	</View>
+</Alloy>
+ 

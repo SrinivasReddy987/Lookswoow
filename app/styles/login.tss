@@ -1,0 +1,60 @@
+"Window": {
+	backgroundColor:'white',
+}
+
+"#mainView": {
+	backgroundColor:'white',
+	height : "100%",
+	width : "100%"
+}
+
+"#submit": {
+	top:'30',
+	height : "40",
+	width : "150",
+	left : "5%",
+	backgroundColor : "#5F93A9",
+	color : "white",
+	title : "Login",
+	borderRadius :"5"
+}
+
+
+"#register": {
+	top:'15',
+	height : "40",
+	width : "150",
+	left : "5%",
+	backgroundColor : "#DA308A",
+	color : "white",
+	title : "Register",
+	borderRadius :"5"
+}
+
+"#userName": {
+	backgroundColor:'white',
+	top : 20,
+	left : "5%",
+	color : "black"
+}
+
+"#password": {
+	backgroundColor:'white',
+	top : 10,
+	left : "5%",
+	color : "black"
+}
+
+".textFiledProperty": {
+	backgroundColor:'white',
+	top : 5,
+	width : "90%",
+	height: 40,
+	borderColor : "#5F93A9",
+	borderRadius : "5",
+	color : "black",
+	paddingLeft :5,
+	paddingRight :5
+}
+
+

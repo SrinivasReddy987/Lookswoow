@@ -1,0 +1,44 @@
+<Alloy>
+	<Window id="bookAppointment" layout="vertical">
+		<View id = "topView" backgroundColor="white" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%" >Book Appointment</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+			<Label id = "backLabel"  text="< Back" onClick="goBack" left = "3" top = "45%"></Label>
+			<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+		</View>
+		
+	 <ScrollView id="scrollView" top = "0"  layout="vertical" bottom="60">
+			<Label id = "names" class="labelProperty">First Name:</Label>
+			<TextField id = "firstName" class="textFiledProperty" hintText="First Name"></TextField>
+			<Label id = "names" class="labelProperty">Last Name:</Label>
+			<TextField id = "lastName" class="textFiledProperty" hintText="Last Name"></TextField>
+			<Label id = "mobileNumber" class="labelProperty">Mobile Code:</Label>
+			<TextField id = "cuntryCode" class="textFiledProperty" hintText="Contry Code"></TextField>
+			<Label id = "mobileNumber" class="labelProperty">Mobile Number:</Label>
+			<TextField id = "number" class="textFiledProperty" hintText="Number"></TextField>
+			<Label id = "emailEddress" class="labelProperty">Email Address:</Label>
+			<TextField id = "emailTxt" class="textFiledProperty" hintText="Emial"></TextField>
+			<Label id = "citiLabel" class="labelProperty">City:</Label>
+			<TextField id = "citiTxt" class="textFiledProperty" hintText="City"></TextField>
+			<Label id = "countryLabel" class="labelProperty">Country:</Label>
+			<TextField id = "countryTxt" class="textFiledProperty"></TextField>
+			
+			<Label id = "appointmentDateLabel" class="labelProperty">Appointment Date:</Label>
+			<TextField id = "dateText" class="textFiledProperty">Enter Date</TextField>
+			
+			<Label id = "countryLabel" class="labelProperty">Appointment Time:</Label>
+			<TextField id = "timeTxt" class="textFiledProperty"></TextField>
+			
+			<Label id = "servicesLabel" class="labelProperty">Services:</Label>
+			<TextField id = "servicesTxt" class="textFiledProperty"></TextField>
+			
+			<Label id = "specialReqLabel" class="labelProperty">Special Requests:</Label>
+			<TextField id = "specialTxt" class="textFiledProperty"></TextField>
+			
+			<Button id = "submitButton" onClick="bookAppointment"></Button>
+			<Button id = "payOnline" onClick="payAmount"></Button>
+			<TextArea id = "textArea"></TextArea>
+		</ScrollView>
+			<Require id="tabView" src="tabView" />
+    </Window>
+</Alloy>

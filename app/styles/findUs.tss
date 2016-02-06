@@ -1,0 +1,98 @@
+"Window": {
+	//backgroundImage:"tabicons/bg.png"
+	backgroundColor:'white',
+	
+}
+
+"#titleLable":{
+	color : "#DA308A",
+	font: { fontSize: '18', fontWeight: 'bold'},
+}
+
+"#backLabel":{
+	color : "#5F93A9",
+	font: { fontSize: '16', fontWeight: 'bold'},
+}
+
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "70",
+}
+
+"#scrollView": {
+	top : 0,
+	height : "78%"
+}
+
+"#logoImage": {
+	image : "/logo/banner.png",
+	left : "5%",
+	right : "5%",
+	top : "3%",
+}
+
+"#titleLabel": {
+	left : "5%",
+	right : "5%",
+	top : "1%",
+	text : "The Duabi Mall",
+	height : "30",
+	color:'black',
+	font: {fontSize:16, fontWeight:'bold'},
+}
+
+"#textArea": {
+	left : "5%",
+	right : "5%",
+	top : "1%",
+	text : "Ground Floor Next to Galleries Lafayette \n http://www.thedubaimall.com/Lookswoow",
+	height : Titanium.UI.SIZE,
+	color:'black',
+	autoLink: Titanium.UI.AUTOLINK_URLS,
+}
+
+"#phoneView": {
+	width : "100%",
+	top : "15",
+	height : "50",
+	layout : "horizontal"
+}
+
+"#emailView": {
+	width : "100%",
+	top : "5",
+	height : "50",
+	layout : "horizontal"
+}
+
+
+".imageProperty": {
+	left : "5%",
+	height : "35",
+	width : "35"
+}
+
+".labelProperty": {
+	left : "5%",
+	right : "5%",
+	//height : "15%",
+	font: {fontSize:12},
+	color:'black'
+}
+
+"#mapview": {
+	left : "5%",
+	right : "5%",
+	height : "40%",
+	top : "1%",
+	backgroundColor : "gray"
+}
+
+
+
+
+

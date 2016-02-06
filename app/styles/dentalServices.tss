@@ -1,0 +1,81 @@
+"Window": {
+	//backgroundImage:"tabicons/bg.png"
+	backgroundColor:'white',
+}
+
+"#logoutLable" : {
+	right : "0",
+	height : "80%",
+	font: {fontFamily: 'HelveticaNeue-Bold', fontSize: '16', fontWeight: 'bold'},
+	color : "#5F93A9",
+	width : "70",
+}
+
+".imageProperty1" : {
+	left : "5%",
+	height : 90,
+}
+
+".imageProperty2" : {
+	width : 90,
+	height : 90,
+}
+
+".imageProperty3" : {
+	width : 90,
+	height : 90,
+	right : "5%"
+}
+
+"#callImage" : {
+	image : "/homeIcons/call-us-btn.png",
+	left : "5%",
+	width : "42%",
+	//height: 80,
+}
+
+"#helpImage" : {
+	image : "/homeIcons/liveChat.png",
+	right : "5%",
+	width : "42%",
+	//height: 80,
+}
+
+"#appointmentImage" : {
+	image : "/homeIcons/book-appoinment-btn.png",
+	top : 20,
+	width : "90%"
+}
+
+".viewProperty" : {
+	top : 5,
+	height : "100",
+	width : "100%"
+}
+
+"#view4" : {
+	top : 20,
+	height : 80,
+	width : "100%"
+}
+
+"#titleLabel" : {
+	color:'black',
+  font:{fontSize:20,}
+}
+
+"#sendButton" : {
+  font:{fontSize:18,fontWeight:'bold'}
+}
+
+"#emailField" : {
+  paddingLeft : 5,
+  paddingRight :5,
+  height : 35
+}
+
+
+
+
+
+

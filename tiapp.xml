@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.dmsapiensdubai.lookswoow</id>
+    <name>Lookswoow</name>
+    <version>1.0</version>
+    <publisher>dharmarao</publisher>
+    <url>http://dmsapiensdubai.com</url>
+    <description>undefined</description>
+    <copyright>2016 by dharmarao</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>612d91d9-232d-4c58-9aaa-1376b3088d0f</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <!--manifest>
+		<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+		<application android:hardwareAccelerated="true" />
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAwzgjZ9nJXlercR28kaTj3g1-A0geVz1U"/>
+		</manifest-->
+        <manifest android:versionCode="1" android:versionName="1.0"
+            package="com.dmsapiensdubai.lookswoow" xmlns:android="http://schemas.android.com/apk/res/android">
+            <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+            <application android:debuggable="false"
+                android:hardwareAccelerated="true"
+                android:icon="@drawable/appicon"
+                android:label="Lookswoow"
+                android:name="LookswoowApplication"
+                android:theme="@style/Theme.AppCompat.NoTitleBar" android:windowSoftInputMode="stateVisible|adjustPan">
+                <activity
+                    android:configChanges="keyboardHidden|orientation|screenSize"
+                    android:label="@string/app_name"
+                    android:name=".LookswoowActivity" android:theme="@style/Theme.Titanium">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+                <activity
+                    android:configChanges="keyboardHidden|orientation|screenSize" android:name="org.appcelerator.titanium.TiActivity"/>
+                <activity
+                    android:configChanges="keyboardHidden|orientation|screenSize"
+                    android:name="org.appcelerator.titanium.TiTranslucentActivity" android:theme="@style/Theme.AppCompat.Translucent"/>
+                <activity android:configChanges="screenSize" android:name="ti.modules.titanium.ui.android.TiPreferencesActivity"/>
+                <service android:exported="false"
+                    android:name="com.appcelerator.analytics.APSAnalyticsService" android:screenOrientation="portrait"/>
+                <meta-data
+                    android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyB1oij-JK71nVCsfiAnOIhKKhtCbRN1YF4"/>
+                <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+            </application>
+            <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+            <permission
+                android:name="com.dmsapiensdubai.lookswoow.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+            <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+            <uses-permission android:name="com.dmsapiensdubai.lookswoow.permission.MAPS_RECEIVE"/>
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+            <uses-permission android:name="android.permission.INTERNET"/>
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+            <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="iphone">ti.map</module>
+        <module platform="android">ti.map</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.1.2.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">568a486ffdc26c4a50c6cbe0</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">ANoIzmAiR7bikOCTSNzT9l0X08NJkmhb</property>
+    <property name="acs-oauth-key-development" type="string">BW3edkWC8s0Rux3bIygijtSNKStAIXLP</property>
+    <property name="acs-api-key-development" type="string">e9G9jm2hLqExTl01XUKkuMBkNdmAkGPL</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">3Ew7K9PjsxgINyoYjU</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">TGymYB6937BrYPTBXdj7fXAixcqeGrPW</property>
+    <property name="acs-oauth-key-production" type="string">rVBswA0kUaFZo0fs1IOagw8Su8s1Fh0f</property>
+    <property name="acs-api-key-production" type="string">KqcGC2gO86MlQbHvFK99y3CxQmt0WLgu</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">k6eBI4Mc4OB55Byuxy</property>
+    <property name="appc-org-id" type="string">100001937</property>
+    <property name="appc-creator-user-id" type="string">ddb426d4-2d32-491f-a8da-7bd5de7ebaf8</property>
+</ti:app>

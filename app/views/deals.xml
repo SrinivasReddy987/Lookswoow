@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="deals">
+		<View id = "topView" backgroundColor="white" top ="0" height ="60" width ="100%">
+			<Label id = "titleLable" bottom = "0" height="80%">Special Deals</Label>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
+			<Label id = "backLabel"  text="< Back" onClick="goBack" left = "3" top = "45%"></Label>
+			<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
+		</View>
+		<TableView id="tableView" top = "60" bottom = "60"></TableView>
+			<Require id="tabView" src="tabView" />
+    </Window>
+</Alloy>
