@@ -4,7 +4,7 @@
 			<Label id = "titleLable" bottom = "0" height="80%" color="black">WELCOME</Label>
 			<!-- <ImageView id = "logoutImage" right = "10" bottom = "0" height = "50" width = "50" image="/tabicons/logout.png" onClick="logoutClicked"></ImageView>
 	 -->	<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
-			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="1"></View>
+			<View id = "lineView" backgroundColor="black" height="0.5" width="100%" bottom="0"></View>
 		</View>
 		<ImageView id="logoImage"></ImageView>
 		<ImageView id="bannerImage"></ImageView>
