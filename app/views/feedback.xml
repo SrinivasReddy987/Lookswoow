@@ -6,7 +6,7 @@
 				<Label id = "logoutLable" bottom = "0"  onClick="logoutClicked">Logout</Label>
 			</View>
 			<View id = "lineView" backgroundColor="#5F93A9" height="1" width="100%" top="0"></View>
-			<ScrollView id="scrollView" layout="vertical" top="0" height="80%" scrollType="verical" >
+			<ScrollView id="scrollView" layout="vertical" top="0" height="80%" scrollType="vertical" >
 				<View class = "viewProperty" id="nameView">
 					<ImageView class="imageProperty"></ImageView>
 					<Label class="labelProperty">Name</Label>

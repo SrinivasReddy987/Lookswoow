@@ -1,5 +1,9 @@
 var httpManager = require("httpManager");
 
+if (OS_ANDROID) {
+	$.feedback.windowSoftInputMode = Ti.UI.Android.SOFT_INPUT_ADJUST_PAN;
+}
+
  var clickevent = function(e){
  	// e.source.focus();
  	//alert('hi');

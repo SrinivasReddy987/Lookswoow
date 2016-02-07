@@ -11,7 +11,6 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>true</navbar-hidden>
     <analytics>true</analytics>
-    <guid>612d91d9-232d-4c58-9aaa-1376b3088d0f</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
@@ -39,11 +38,7 @@
         </plist>
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
-        <!--manifest>
-		<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
-		<application android:hardwareAccelerated="true" />
-		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAwzgjZ9nJXlercR28kaTj3g1-A0geVz1U"/>
-		</manifest-->
+        <!--manifest><uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/><application android:hardwareAccelerated="true" /><meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAwzgjZ9nJXlercR28kaTj3g1-A0geVz1U"/></manifest-->
         <manifest android:versionCode="1" android:versionName="1.0"
             package="com.dmsapiensdubai.lookswoow" xmlns:android="http://schemas.android.com/apk/res/android">
             <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
@@ -112,7 +107,7 @@
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">568a486ffdc26c4a50c6cbe0</property>
+    <property name="appc-app-id" type="string">56b5a083a67170bd414c1f0a</property>
     <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
     <property name="acs-oauth-secret-development" type="string">ANoIzmAiR7bikOCTSNzT9l0X08NJkmhb</property>
@@ -129,4 +124,5 @@
     <property name="acs-password-production" type="string">k6eBI4Mc4OB55Byuxy</property>
     <property name="appc-org-id" type="string">100001937</property>
     <property name="appc-creator-user-id" type="string">ddb426d4-2d32-491f-a8da-7bd5de7ebaf8</property>
+    <guid>0480d047-d180-4b60-9ccc-ba92cc7fefd8</guid>
 </ti:app>

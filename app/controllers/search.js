@@ -1,5 +1,9 @@
 var httpManager = require("httpManager");
 
+if (OS_ANDROID) {
+	$.search.windowSoftInputMode = Ti.UI.Android.SOFT_INPUT_ADJUST_PAN;
+}
+
 var dataTitles = [
 {
 	name : "Find Us",
@@ -118,6 +122,12 @@ function logoutClicked (e)
 		}
 	});	
 }
+
+Ti.App.addEventListener('android:back', function() {
+	$.search.exitOnClose = true;
+	var myActivity = Ti.Android.currentActivity();
+	myActivity.finish();
+}); 
 
 $.search.open();
 
