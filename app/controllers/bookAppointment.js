@@ -1,5 +1,9 @@
 var httpManager = require("httpManager");
 
+if (OS_ANDROID) {
+	$.bookAppointment.windowSoftInputMode = Ti.UI.Android.SOFT_INPUT_ADJUST_PAN;
+}
+
 function goBack()
 {
 	$.bookAppointment.close();

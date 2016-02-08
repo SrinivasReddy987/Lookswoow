@@ -47,6 +47,5 @@ function logoutClicked (e)
 	});	
 }
 
-
 $.feedback.open();
 

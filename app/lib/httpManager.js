@@ -10,6 +10,8 @@ exports.userLogout = function(callBackFunction) {
 			
 		   if(data.success == 1)
 		   {
+		   	Ti.App.Properties.removeProperty('loggedInUserName');
+		   	Ti.App.Properties.removeProperty('loggedInPassword');
 			 callBackFunction(data);
 		   }
 		} else {

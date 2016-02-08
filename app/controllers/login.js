@@ -32,10 +32,13 @@ function loginButtonClicked() {
 			
 		   if(data.success == 1)
 		   {
+		   	Ti.App.Properties.setString('loggedInUserName',$.userNameField.value);
+		   	Ti.App.Properties.setString('loggedInPassword',$.passwordField.value);
 		   	Ti.App.Properties.setString('appoinmentNo',data.user.appointments);
 		   	Ti.App.Properties.setString('userName',data.user.name);
 		   	Ti.App.Properties.setString('userEmail',data.user.email);
 			 Alloy.createController('home').getView();
+			 $.login.close(); 
 		   }
 		   else
 		   {
