@@ -91,6 +91,7 @@ function logoutClicked (e)
 		{
 		   Alloy.createController('login').getView();
 		   $.testmonials.close(); 
+		   Alloy.Globals.closeDentalServices();
 		}
 	});	
 }

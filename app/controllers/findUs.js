@@ -63,6 +63,7 @@ function logoutClicked (e)
 		{
 		   Alloy.createController('login').getView();
 		   $.findUs.close();
+		   Alloy.Globals.closeDentalServices();
 		}
 	});	
 }

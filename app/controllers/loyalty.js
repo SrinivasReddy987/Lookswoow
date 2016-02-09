@@ -176,6 +176,7 @@ function logoutClicked (e)
 		{
 		   Alloy.createController('login').getView();
 		   $.loyalty.close();
+		   Alloy.Globals.closeDentalServices();
 		}
 	});	
 }

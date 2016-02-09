@@ -74,6 +74,7 @@ function logoutClicked (e)
 		{
 		   Alloy.createController('login').getView();
 		   $.bookAppointment.close();
+		   Alloy.Globals.closeDentalServices();
 		}
 	});	
 }

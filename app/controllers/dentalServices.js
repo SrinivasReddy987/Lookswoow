@@ -118,10 +118,15 @@ function logoutClicked (e)
 		{
 		   Alloy.createController('login').getView();
 		   $.dentalServices.close();
+		   Alloy.Globals.closeHomeWindow();
 		}
 	});	
 }
 
+Alloy.Globals.closeDentalServices = function(){
+	$.dentalServices.close();
+	Alloy.Globals.closeHomeWindow();
+};
 
 
 $.dentalServices.open();

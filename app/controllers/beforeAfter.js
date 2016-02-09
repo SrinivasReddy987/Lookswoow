@@ -12,6 +12,7 @@ function logoutClicked (e)
 		{
 		   Alloy.createController('login').getView();
 		   $.beforeAfter.close(); 
+		   Alloy.Globals.closeDentalServices();
 		}
 	});	
 }
