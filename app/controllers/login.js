@@ -1,5 +1,6 @@
 function registerButtonClicked() {
 	Alloy.createController('userRegister').getView();
+	$.login.close();
 }
 
 function loginButtonClicked() {
