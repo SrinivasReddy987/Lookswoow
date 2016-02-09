@@ -68,6 +68,7 @@ function logoutClicked (e)
 		   if(data.success == 1)
 		   {
 			 Alloy.createController('login').getView();
+			 $.userRegister.close(); 
 		   }
 		   else
 		   {

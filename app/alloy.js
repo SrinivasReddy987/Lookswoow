@@ -9,3 +9,8 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+Alloy.Globals.isHome = false;
+Alloy.Globals.isSearch = false;
+Alloy.Globals.isPromotions = false;
+Alloy.Globals.isFeedback = false;
+Alloy.Globals.isServices = false;

@@ -1,4 +1,5 @@
 var httpManager = require("httpManager");
+Alloy.Globals.isSearch = true;
 
 if (OS_ANDROID) {
 	$.search.windowSoftInputMode = Ti.UI.Android.SOFT_INPUT_ADJUST_PAN;
@@ -119,6 +120,7 @@ function logoutClicked (e)
 		if(response.success == 1)
 		{
 		   Alloy.createController('login').getView();
+		   $.search .close();
 		}
 	});	
 }
@@ -128,6 +130,10 @@ Ti.App.addEventListener('android:back', function() {
 	var myActivity = Ti.Android.currentActivity();
 	myActivity.finish();
 }); 
+
+Alloy.Globals.closeSearchWindow = function(){
+	$.search .close();
+};
 
 $.search.open();
 

@@ -6,7 +6,7 @@
 			</View>
 			<View id = "lineView" backgroundColor="#5F93A9" height="1" width="100%" top="0"></View>
 				<Label id = "userName" class="labelProperty" text="User Name"></Label>
-				<TextField id = "userNameField" class="textFiledProperty" value="dharma@gmail.com"></TextField>
+				<TextField id = "userNameField" class="textFiledProperty" value="dharmasoft9@gmail.com"></TextField>
 				<Label id = "password" class="labelProperty" text="Password"></Label>
 				<TextField id = "passwordField" class="textFiledProperty" value="dharma" passwordMask=true></TextField>
 				<Button id = "submit" onClick="loginButtonClicked"></Button>

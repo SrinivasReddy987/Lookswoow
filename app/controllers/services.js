@@ -1,4 +1,5 @@
 var httpManager = require("httpManager");
+Alloy.Globals.isServices = true;
 serviceDetails();
 var serviceData = [];
 var data = [];
@@ -110,10 +111,13 @@ function logoutClicked (e)
 		if(response.success == 1)
 		{
 		   Alloy.createController('login').getView();
+		   $.services .close();
 		}
 	});	
 }
 
-
+Alloy.Globals.closeServicesWindow = function(){
+	$.services .close();
+};
 
 $.services.open();

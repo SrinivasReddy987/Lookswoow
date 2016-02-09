@@ -62,6 +62,7 @@ function logoutClicked (e)
 		if(response.success == 1)
 		{
 		   Alloy.createController('login').getView();
+		   $.findUs.close();
 		}
 	});	
 }

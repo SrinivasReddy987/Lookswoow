@@ -16,6 +16,7 @@ function logoutClicked (e)
 		if(response.success == 1)
 		{
 		   Alloy.createController('login').getView();
+		   $.congrats.close(); 
 		}
 	});	
 }
